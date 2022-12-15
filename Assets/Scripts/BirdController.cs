@@ -6,7 +6,9 @@ using UnityEngine.UI;
 public class BirdController : MonoBehaviour
 {
     private Rigidbody2D birdRigidbody;
-    public int jumpForce;
+
+    [SerializeField] //Substituindo public por SerializeField
+    private int jumpForce;
 
     // Start is called before the first frame update
     void Start()
