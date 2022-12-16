@@ -7,6 +7,8 @@ public class PipeMoveScript : MonoBehaviour
     [SerializeField]
     private float pipeSpeed;
 
+    public float limiteDestruicao;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,5 +19,10 @@ public class PipeMoveScript : MonoBehaviour
     void Update()
     {
         transform.position = transform.position + (Vector3.left * pipeSpeed ) * Time.deltaTime; //Multiplicando por time.deltaTime para não variar de pc para pc
+
+        if (transform.position.x < limiteDestruicao)
+        {
+            Destroy(gameObject);
+        }
     }
 }
