@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PipeMiddleScript : MonoBehaviour
 {
-    private LogicScript _LogicScript;
+    private LogicScript _LogicScript; //Variável de armazenamento do script "LogicScript"
 
 
     // Start is called before the first frame update
@@ -23,6 +23,10 @@ public class PipeMiddleScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        _LogicScript.addPontuacao(); //Chamando o método do script "LogicScript"
+        if(collision.gameObject.layer == 8) //Layer Bird
+        {
+            _LogicScript.addPontuacao(1); //Chamando o método do script "LogicScript"
+        }
+        
     }
 }

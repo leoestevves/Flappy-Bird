@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class PipeMoveScript : MonoBehaviour
 {
-    [SerializeField]
-    private float pipeSpeed;
-
+    public float pipeSpeed;
     public float limiteDestruicao;
 
     // Start is called before the first frame update
