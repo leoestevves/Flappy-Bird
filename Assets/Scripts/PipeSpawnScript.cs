@@ -21,6 +21,7 @@ public class PipeSpawnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         tempo = tempo + Time.deltaTime; //Colocando o tempo real na variável tempo
         if (tempo > intervalo)
         {
@@ -28,7 +29,7 @@ public class PipeSpawnScript : MonoBehaviour
             tempo = 0;
         }
 
-        
+
 
     }
 
@@ -38,6 +39,7 @@ public class PipeSpawnScript : MonoBehaviour
         float maiorPonto = transform.position.y + heightOffSet;
 
         Instantiate(pipe, new Vector3(transform.position.x, Random.Range(menorPonto, maiorPonto), transform.position.z), transform.rotation);
+        
     }
 
     
