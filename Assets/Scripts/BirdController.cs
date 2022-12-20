@@ -9,7 +9,7 @@ public class BirdController : MonoBehaviour
     public  int         jumpForce;
 
     private LogicScript _LogicScript;
-    private bool birdIsAlive = true;
+    public bool birdIsAlive = true;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +25,12 @@ public class BirdController : MonoBehaviour
         {
             Jump();
         }      
+
+        if (transform.position.y > 17 || transform.position.y < -17)
+        {
+            _LogicScript.gameOver();
+            birdIsAlive = false;
+        }
     }
         
     void Jump()
@@ -32,7 +38,7 @@ public class BirdController : MonoBehaviour
         birdRigidbody.velocity = Vector2.up * jumpForce; 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
         _LogicScript.gameOver();
         birdIsAlive = false;

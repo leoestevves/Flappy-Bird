@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 651638569}
   m_Layer: 8
   m_Name: Bird
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -648,6 +648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 20
+  birdIsAlive: 1
 --- !u!58 &651638570
 CircleCollider2D:
   m_ObjectHideFlags: 0
