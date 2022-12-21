@@ -30,7 +30,7 @@ public class PipeMiddleScript : MonoBehaviour
     {
         if(collision.gameObject.layer == 8 && _BirdController.birdIsAlive) //Layer Bird, e a variável birdIsAlive do script BirdController
         {
-            _LogicScript.addPontuacao(1); //Chamando o método do script "LogicScript"
+            _LogicScript.addScore(1); //Chamando o método do script "LogicScript"
 
         }
         
