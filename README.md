@@ -1,7 +1,7 @@
 
 ![](ReadmeFiles/Logo4Readme.png)
 
-##### Recreating the Flappy Bird game.
+### Recreating the Flappy Bird game.
 
 ---
 #### Hello there! :wave: Attention :cop: :warning:
