@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -13,10 +14,29 @@ public class LogicScript : MonoBehaviour
 
     public GameObject gameOverScreen;
 
+    //Pause
+    public static bool gameIsPaused = false;
+    public GameObject pauseMenuUI;
+
 
     private void Start()
     {
         highScore.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (gameIsPaused)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
+        } 
     }
 
     public void addScore(int scoreToAdd)
@@ -39,5 +59,25 @@ public class LogicScript : MonoBehaviour
     public void gameOver()
     {
         gameOverScreen.SetActive(true);
+    }
+
+
+    public void Resume()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        gameIsPaused = false;
+    }
+
+    void Pause()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        gameIsPaused = true;
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }
