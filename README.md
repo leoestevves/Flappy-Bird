@@ -43,6 +43,8 @@ In addition, I've always been adding each update in my project to my github, usi
 ## Conclusion :snowman:
 I learned a lot of things doing this project, things like the preparation of the project, using [trello](https://trello.com/b/Qq4K0x4S/flappy-bird) efficiently, acquiring more knowledge about unity, GameObjects and C#.
 
+If you only want to download the folder with the game's executable, I'm providing the link to my google drive in the "About" tab.
+
 Thanks for reading, I wish you a good week, see ya. :wave:
 
 
@@ -83,5 +85,7 @@ Além disso, sempre fui adicionando no meu github cada atualização do projeto,
 ## Conclusão :snowman:
 
 Consegui aprender muita coisa fazendo esse projeto, como a parte de preparação do projeto, utilizar o [trello](https://trello.com/b/Qq4K0x4S/flappy-bird) de forma eficiente, conhecimento mais profundo sobre Unity e GameObjects, até a parte de programação em C#.
+
+Caso queira baixar apenas a pasta com o executável do jogo, eu estou disponibilizando o link para o meu google drive na aba "About".
 
 Obrigado por ler até aqui, te desejo uma ótima semana, até mais. :wave:
