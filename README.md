@@ -54,7 +54,7 @@ Thanks for reading, I wish you a good week, see ya. :wave:
 Esse projeto tem como objetivo aprender e praticar desenvolvimento de jogos, Unity e C#, além de usá-lo como parte do meu portfólio.
 
 ## Introdução :bell:
-Resolvi fazer esse projeto após assistir um vídeo no youtube do Mark Brown, do canal [Game Maker's Toolkit](https://www.youtube.com/channel/UCqJ-Xo29CKyLTjn6z2XwYAw). Nesse vídeo, Mark fez um projeto recriando o jogo Flappy Bird, com o intúito de ensinar o básico de desenvolvimento de jogos para iniciantes. Após assistir esse vídeo, resolvi fazer a minha própria recriação do Flappy Bird, pegando conceitos explicados pelo Mark e adicionando outros recursos.
+Resolvi fazer esse projeto após assistir um vídeo no youtube do Mark Brown, do canal [Game Maker's Toolkit](https://www.youtube.com/channel/UCqJ-Xo29CKyLTjn6z2XwYAw). Nesse vídeo, Mark fez um projeto recriando o jogo Flappy Bird, com o intuito de ensinar o básico do desenvolvimento de jogos para iniciantes. Após assistir esse vídeo, resolvi fazer a minha própria recriação do Flappy Bird, pegando conceitos explicados pelo Mark e adicionando outros recursos.
 
 ## Aplicação :bird:
 O projeto é uma recriação do jogo Flappy Bird, cada vez que o passarinho passa entre dois canos o jogador faz um ponto, se o passarinho bater em um dos canos é game over. Fiz duas cenas nesse projeto, a tela inicial e o nível 1, que é onde o jogo realmente acontece.
@@ -66,7 +66,7 @@ Gif do Projeto Flappy Bird:
 ## Por trás do projeto :christmas_tree:
 Durante esse projeto eu utilizei duas coisas para me organizar, o github desktop e o [trello](https://trello.com/b/Qq4K0x4S/flappy-bird). Antes de começar o projeto é sempre importante entender o que de fato eu preciso fazer, e para isso eu utlizei o [trello](https://trello.com/b/Qq4K0x4S/flappy-bird). Muitos desenvolvedores utilizam essa ferramenta para se organizar, e eu fiz o mesmo, montei no meu trello diversos cartões, mostrando em cada um deles o que eu precisava fazer, separando por tópicos, como por exemplo a criação do passarinho, o background, a neve, música, e etc.
 
-Após isso, eu os separei por categorias, se esse tópico do projeto já estava funcionado, se estava em andamento, ou ainda era necessário fazer do zero.
+Após isso, eu os separei por categorias, se esse tópico do projeto já estava funcionando, se estava em andamento, ou ainda era necessário fazer do zero.
 Print Trello: ![](ReadmeFiles/Print2%20trello.png)
 
 Além disso, sempre fui adicionando no meu github cada atualização do projeto, utilizando o github desktop, plataforma de integração entre git e github.
@@ -84,7 +84,7 @@ Além disso, sempre fui adicionando no meu github cada atualização do projeto,
 
 ## Conclusão :snowman:
 
-Consegui aprender muita coisa fazendo esse projeto, como a parte de preparação do projeto, utilizar o [trello](https://trello.com/b/Qq4K0x4S/flappy-bird) de forma eficiente, conhecimento mais profundo sobre Unity e GameObjects, até a parte de programação em C#.
+Consegui aprender muita coisa fazendo esse projeto, como a parte de preparação, utilizar o [trello](https://trello.com/b/Qq4K0x4S/flappy-bird) de forma eficiente, conhecimento mais profundo sobre Unity e GameObjects, até a parte de programação em C#.
 
 Caso queira baixar apenas a pasta com o executável do jogo, eu estou disponibilizando o link para o meu google drive na aba "About".
 
