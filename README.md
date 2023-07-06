@@ -14,7 +14,7 @@ This project has the objective to learn and practice game development, Unity and
 ## Introduction :bell:
 I decided to do this project after watching a video on youtube by Mark Brown, from the channel [Game Maker's Toolkit](https://www.youtube.com/channel/UCqJ-Xo29CKyLTjn6z2XwYAw). In this video, Mark make a project recreating the Flappy Bird game. After watching this video, I decided to make my own recreation of Flappy Bird, taking the concepts explained by Mark and adding other features.
 
-## Aplication :bird:
+## Application :bird:
 This project is a recreation of the Flappy Bird game, each time the bird passes between two pipes the player scores a point, if the bird hits one of the pipes it's game over. I made two scenes in this project, the title screen and the level one, which is where the game happen.
 Flappy Bird project Gif:
 <p align="center">
